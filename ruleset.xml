@@ -75,16 +75,22 @@
         <severity>0</severity>
     </rule>
 
+
+    <rule ref="Symfony2.Commenting.ClassComment">
+        <severity>1</severity>
+    </rule>
+
+    <rule ref="Symfony2.Commenting.FunctionComment">
+        <severity>1</severity>
+    </rule>
+
+
     <rule ref="Symfony2.Commenting.FunctionComment.MissingParamComment">
         <severity>0</severity>
     </rule>
 
     <rule ref="Symfony2.Commenting.FunctionComment.SpacingBeforeTags">
         <severity>0</severity>
-    </rule>
-
-    <rule ref="Symfony2.Commenting.ClassComment">
-        <severity>1</severity>
     </rule>
 
     <rule ref="Symfony2.Commenting.ClassComment.SpacingBeforeTags">
